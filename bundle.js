@@ -1,4 +1,4 @@
-var bod = document.getElementByTag('body');
+var bod = document.getElementByTagName('body');
 if(!document.getElementById('copy')){
 bod.innerHTML = "Database Error!"
 }else{
